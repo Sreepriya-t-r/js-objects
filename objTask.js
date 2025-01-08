@@ -59,36 +59,76 @@
 
 
 // Destructure age and print
-let person = {
-  name: "John",
-Age:31
-};
+// let person = {
+//   name: "John",
+//   age:31
+//   };
 
-let {age}=person;
-console.log(age);
+// let {age}=person;
+// console.log(age);
 
-//  create an object and add new key to it using three methods
 //  WAP to check if a specific key exists in the object using:
 // The *hasOwnProperty* method
+//  let person = {
+//   name: "John",
+//   age:31
+//    };
+// console.log(person.hasOwnProperty("age"));
+
+
+  
+
 // Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
-// Sample object:
 // var student = {
 // name : "David Rayy",
 // sclass : "VI",
 // rollno : 12 };
+// console.log("Before deleting :",student);
+// delete student.rollno;
+// console.log("After deleting :",student);
+
+
+
 //  add the job of person in the Object person
 // let person = {
 //   name: "Alan",
 //   age: 22,
 //   city: "Kerala"
 // };
+//  person["job"]="Developer";
+//  console.log(person);
+ 
+
 //  Write a JavaScript program that checks if an object has a property address. If it exists, delete it. Otherwise, print a message that the property does not exist.
-//  Write a function
-// deleteNonStringProperties (ob
-// j ) that removes all properties from the object where the value is not a string.
-//  let car = {
-//   make: "Toyota",
-//   model: "Camry",
-//   year: 2021
+// let person = {
+//   name: "Alan",
+//   age: 22,
+//   city: "Kerala"
 // };
+//  console.log( person.hasOwnProperty("address")?" Found":" A message that the property does not exist.");
+ 
+
+//  Write a function deleteNonStringProperties (obj ) that removes all properties from the object where the value is not a string.
+// let person={
+//   nameMan:"Rahul",
+//   age:21,
+//   address:"TVM"
+// }
+// for(let i in person){
+//   if(typeof person[i]!="string"){
+//       delete person[i]
+//   }
+ 
+// }
+// console.log(person);
+
+
 //  Add  fuelType to the object
+// let car={
+//   make:"toyota",
+//   model:"camry",
+//   year:2021
+// }
+
+// car["fuelType"]="petrol"
+// console.log(car);
